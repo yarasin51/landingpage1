@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-style: ;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.content{
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #1f264b;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 39px;
+    color: #008aff;
+    padding: 10px;
+}
+img{
+    max-width: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: small;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    margin-bottom: 50px;
+}
+
+.flex{
+    display: flex;
+}
+
+.col-1-2{
+    flex-basis: 50%;
+}
+.count{
+    padding-bottom: 100px;
+}
+.testimonial{
+    flex-basis: 50%;
+}
+
+.testimonial h3{   
+padding top: 10px;   
+font-size: 2em;  
+width: 50%; 
+padding-left: 24px;
+text-transform: uppercase;
+}
+
+.count p{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 7px;
+}
+.count h1{color: #f05563;font-size: 52px;text-align: right;}
+
+
+.col-1-3{
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.feature-content{
+    background-color: #feebed;
+    padding: 39px 10px;
+}
+.feature-content2{
+    background-color: #c1e2cd;
+    padding: 20px 10px;
+}
+.feature-content3{
+    background-color: azure;
+    padding: 6px 3px;
+}
+
+.col-1-3 h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.fcol-1-3 p{
+    text-align: center;
+    color: gray;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    padding: 7px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.col-12{
+    flex-basis: 50%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 255px;
+    /* margin-right: auto; */
+    width: 69%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    padding: 20px 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: rgb(20, 149, 255);
+  }
